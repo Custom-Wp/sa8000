@@ -1,0 +1,151 @@
+.ptam-post-grid-items .result{
+    border: 2px solid #002469; 
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.ptam-post-grid-items .result h3{
+    font-size: 28px;
+}
+
+.ptam-post-grid-items .result a:hover{
+    color:#000;
+    text-decoration: none;
+    box-shadow: none;
+}
+
+.ptam-post-grid-items .result p{
+    line-height: 1.2;
+}
+
+.cwpsf{
+    background: transparent !important; 
+    border-bottom: 2px solid #fff !important;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    /* color: #fff !important; */
+    /* margin: 15px; */
+    position: relative;
+    margin-bottom:30px
+}
+
+select.cwpsf{
+    margin-top:-7px
+}
+
+input.cwpsf{
+    color:#fff
+}
+
+select.cwpsf{
+    color:#fff;
+}
+
+select.cwpsf option{
+    color:black;
+}
+
+.cwpsf::placeholder{
+    color:#fff;
+}
+
+label.cwpsfl{
+    color: #fff;
+    position: absolute;
+    margin-left: 25px;
+    margin-top: 8px;
+    transition: 0.3s;
+}
+label.cwpsfl.active{
+    font-size: 14px;
+    margin-top: -17px;
+    transition: 0.3s
+}
+
+.cwp-reset{
+    border: 2px solid #fff;
+    color: #fff;
+    position: absolute;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 9px 13px;
+    text-align: center;
+    text-decoration: none;
+    white-space: normal;
+    width: auto;
+    bottom: 30px;
+    display:none;
+}
+
+.cwp-sa-search{
+    float: right;
+    background: #fff;
+    color: #002469;
+    position: relative;
+    transition: 0s !important;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 11px 30px;
+    text-align: center;
+    text-decoration: none;
+    white-space: normal;
+    width: auto;
+    margin-top: 5px;
+}
+
+.cwp-reset.actv{
+    display:block;
+}
+
+#cwp-facet-loading{
+    display:none;
+}
+
+#cwp-facet-loading.active{
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255,0.8);
+}
+
+#cwp-facet-loading-icon {
+    animation: 1s linear infinite spinner;
+    animation-play-state: inherit;
+    border: solid 5px #cfd0d1;
+    border-bottom-color: #1c87c9;
+    border-radius: 50%;
+    content: "";
+    height: 40px;
+    position: absolute;
+    top: 20px;
+    /* left: 55px; */
+    transform: translate3d(-50%, -50%, 0);
+    width: 40px;
+    will-change: transform;
+    display: block;
+    left: 40px;
+    right: 0;
+    margin: 0 auto;
+}
+
+@keyframes spinner {
+    0% {
+    transform: translate3d(-50%, -50%, 0) rotate(0deg);
+    }
+    100% {
+    transform: translate3d(-50%, -50%, 0) rotate(360deg);
+    }
+}
+
+#cwpregion:focus{
+    outline:none
+}
+
+#cwpregion option:first-child{
+    display:none;
+}
